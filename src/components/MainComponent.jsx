@@ -31,37 +31,39 @@ const MainComponent = ({ setActiveSection }) => {
   return (
     <>
       <div className="lg:w-full md:w-full w-full">
-        <div className="w-full md:h-[54.3125rem] h-[48rem] bg-[url('/img/background_img.png')] bg-cover bg-center flex justify-center items-center">
-          <div
-            id="home"
-            ref={homeRef}
-            className="md:w-[90rem] w-[36.68rem] h-full md:bg-[url('/img/coin.gif')] bg-[url('/img/coin_m.gif')] bg-center bg-cover lg:p-0 md:px-8 px-5"
-          >
-            <div className="md:pt-[17.815rem] pt-[13.5rem] w-full text-center">
-              <p className="text-lip_purple mb-4 md:text-[1rem] text-[0.625rem]">
-                대기업 거래소 현업 전문가와 오프라인에서 함께하는 맞춤교육
-              </p>
-              <p className="md:text-[2.5rem] text-[1.2rem] font-semibold text-lip_black">
-                립토러닝에서 주최하는{" "}
-                <span className="text-lip_purple">무료강의</span>
-              </p>
-              <p className="md:text-[4.5rem] text-[2rem] font-bold text-lip_black mb-2">
-                제1차 코인 투자 홀로서기
-              </p>
-              <div className="text-lip_text md:text-[1rem] text-[0.8125rem]">
-                <p className="md:block inline">
-                  대기업 거래소의 현업 전문가와 함께 오프라인에서 맞춤형 교육을
-                  제공합니다.{" "}
+        <div className="w-full md:h-[54.3125rem] h-[48rem] bg-[url('/img/background_img.png')] bg-cover bg-center">
+          <div className="w-full h-full bg-gradient-to-b from-gray-100 to-transparent bg-[length:100%_13%] bg-no-repeat flex justify-center items-center">
+            <div
+              id="home"
+              ref={homeRef}
+              className="md:w-[90rem] w-[36.68rem] h-full md:bg-[url('/img/coin.gif')] bg-[url('/img/coin_m.gif')] bg-center bg-cover lg:p-0 md:px-8 px-5"
+            >
+              <div className="md:pt-[17.815rem] pt-[13.5rem] w-full text-center">
+                <p className="text-lip_purple mb-4 md:text-[1rem] text-[0.625rem]">
+                  대기업 거래소 현업 전문가와 오프라인에서 함께하는 맞춤교육
                 </p>
-                <p className="md:block inline">
-                  이 과정에서는 가상자산, 블록체인, 그리고 웹3 기술을 실습을
-                  통해 배워보세요.
+                <p className="md:text-[2.5rem] text-[1.2rem] font-semibold text-lip_black">
+                  립토러닝에서 주최하는{" "}
+                  <span className="text-lip_purple">무료강의</span>
                 </p>
-              </div>
-              <div className="mt-10">
-                <button className="py-4 px-10 bg-lip_purple text-lip_white border border-[#2E0082] rounded-[2rem] shadow-[inset_4px_4px_14px_0_rgba(255,255,255,0.2)]">
-                  신청하기
-                </button>
+                <p className="md:text-[4.5rem] text-[2rem] font-bold text-lip_black mb-2">
+                  제1차 코인 투자 홀로서기
+                </p>
+                <div className="text-lip_text md:text-[1rem] text-[0.8125rem]">
+                  <p className="md:block inline">
+                    대기업 거래소의 현업 전문가와 함께 오프라인에서 맞춤형
+                    교육을 제공합니다.{" "}
+                  </p>
+                  <p className="md:block inline">
+                    이 과정에서는 가상자산, 블록체인, 그리고 웹3 기술을 실습을
+                    통해 배워보세요.
+                  </p>
+                </div>
+                <div className="mt-10">
+                  <button className="py-4 px-10 bg-lip_purple text-lip_white border border-[#2E0082] rounded-[2rem] shadow-[inset_4px_4px_14px_0_rgba(255,255,255,0.2)]">
+                    신청하기
+                  </button>
+                </div>
               </div>
             </div>
           </div>
