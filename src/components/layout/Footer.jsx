@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="w-full items-start text-lip_text overflow-hidden">
       <div className="lg:px-[6.25rem] md:px-8 px-5 text-left">
         <div className="lg:w-[9.125rem] w-[6.875rem] lg:mt-[3.75rem] mt-4 !ml-0">
-          <img src="./meetlip_logo_b.png" alt="MeetMeet Logo" />
+          <img src="./img/LiptoLearning_logo.png" alt="LiptoLearning Logo" />
         </div>
         {/* 웹 버전 */}
         <div className="lg:block hidden">

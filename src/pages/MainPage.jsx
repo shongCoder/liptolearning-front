@@ -1,11 +1,9 @@
 import MainComponent from "../components/MainComponent";
+import { useOutletContext } from "react-router-dom";
 
 function Mainpage() {
-  return (
-    <div>
-      <MainComponent />
-    </div>
-  );
+  const { setActiveSection } = useOutletContext();
+  return <MainComponent setActiveSection={setActiveSection} />;
 }
 
 export default Mainpage;
