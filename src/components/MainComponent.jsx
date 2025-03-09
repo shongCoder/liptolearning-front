@@ -30,45 +30,47 @@ const MainComponent = ({ setActiveSection }) => {
 
   return (
     <>
-      <div className="lg:w-full md:w-full w-full lg:p-0 md:px-8 px-5">
-        <div
-          id="home"
-          ref={homeRef}
-          className="w-full h-[50rem] bg-[url('/img/background_img.png')] bg-center bg-cover"
-        >
-          <div className="pt-[17.815rem] w-full text-center">
-            <p className="text-lip_purple mb-4 md:text-[1rem] text-[0.625rem]">
-              대기업 거래소 현업 전문가와 오프라인에서 함께하는 맞춤교육
-            </p>
-            <p className="md:text-[2.5rem] text-[1.2rem] font-semibold text-lip_black">
-              립토러닝에서 주최하는{" "}
-              <span className="text-lip_purple">무료강의</span>
-            </p>
-            <p className="md:text-[4.5rem] text-[2rem] font-bold text-lip_black mb-2">
-              제1차 코인 투자 홀로서기
-            </p>
-            <div className="text-lip_text md:text-[1rem] text-[0.8125rem]">
-              <p className="md:block inline">
-                대기업 거래소의 현업 전문가와 함께 오프라인에서 맞춤형 교육을
-                제공합니다.{" "}
+      <div className="lg:w-full md:w-full w-full">
+        <div className="w-full h-[50rem] flex justify-center items-center">
+          <div
+            id="home"
+            ref={homeRef}
+            className="md:w-[90rem] w-[36.68rem] h-full md:bg-[url('/img/coin.gif')] bg-[url('/img/coin_m.gif')] bg-center bg-cover lg:p-0 md:px-8 px-5"
+          >
+            <div className="pt-[17.815rem] w-full text-center">
+              <p className="text-lip_purple mb-4 md:text-[1rem] text-[0.625rem]">
+                대기업 거래소 현업 전문가와 오프라인에서 함께하는 맞춤교육
               </p>
-              <p className="md:block inline">
-                이 과정에서는 가상자산, 블록체인, 그리고 웹3 기술을 실습을 통해
-                배워보세요.
+              <p className="md:text-[2.5rem] text-[1.2rem] font-semibold text-lip_black">
+                립토러닝에서 주최하는{" "}
+                <span className="text-lip_purple">무료강의</span>
               </p>
-            </div>
-            <div className="mt-10">
-              <button className="py-4 px-10 bg-lip_purple text-lip_white border border-[#2E0082] rounded-[2rem] shadow-[inset_4px_4px_14px_0_rgba(255,255,255,0.2)]">
-                신청하기
-              </button>
+              <p className="md:text-[4.5rem] text-[2rem] font-bold text-lip_black mb-2">
+                제1차 코인 투자 홀로서기
+              </p>
+              <div className="text-lip_text md:text-[1rem] text-[0.8125rem]">
+                <p className="md:block inline">
+                  대기업 거래소의 현업 전문가와 함께 오프라인에서 맞춤형 교육을
+                  제공합니다.{" "}
+                </p>
+                <p className="md:block inline">
+                  이 과정에서는 가상자산, 블록체인, 그리고 웹3 기술을 실습을
+                  통해 배워보세요.
+                </p>
+              </div>
+              <div className="mt-10">
+                <button className="py-4 px-10 bg-lip_purple text-lip_white border border-[#2E0082] rounded-[2rem] shadow-[inset_4px_4px_14px_0_rgba(255,255,255,0.2)]">
+                  신청하기
+                </button>
+              </div>
             </div>
           </div>
         </div>
         {/* 메인 비주얼 */}
 
-        <div>
-          <img src="./img/question.png" className="md:block hidden" />
-          <img src="./img/question_m.png" className="md:hidden block" />
+        <div className="w-full">
+          <img src="./img/question.png" className="md:block hidden w-full" />
+          <img src="./img/question_m.png" className="md:hidden block w-full" />
         </div>
         {/* 질문 박스 */}
 
@@ -77,7 +79,7 @@ const MainComponent = ({ setActiveSection }) => {
         </div>
         {/* 세로선 */}
 
-        <div className="text-center w-full">
+        <div className="text-center w-full lg:p-0 md:px-8 px-5">
           <div className="inline-block md:font-normal font-bold md:text-lip_white text-lip_purple md:bg-lip_purple bg-lip_white py-2 px-3 rounded-[0.5rem] md:border border-none border-[#2E0082] shadow-[inset_1px_3px_8px_0_rgba(255,255,255,0.2)]">
             CHECK
           </div>
@@ -139,13 +141,13 @@ const MainComponent = ({ setActiveSection }) => {
               </p>
             </div>
 
-            <div className="mt-10 md:mb-[7.5rem] mb-10 lg:w-[65rem] md:w-full w-full h-[1px] bg-lip_gray"></div>
+            <div className="mt-10 md:mb-[7.5rem] mb-10 lg:w-[65rem] md:w-full w-full h-[1px] bg-lip_gray lg:p-0 md:px-8 px-5"></div>
             {/* 가로선 */}
           </div>
         </div>
         {/* check */}
 
-        <div className="w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#FCFDFD] to-white md:py-[6.25rem] py-10">
+        <div className="w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#FCFDFD] to-white md:py-[6.25rem] py-10 lg:p-0 md:px-8 px-5">
           <div
             id="curriculum"
             ref={curriculumRef}
@@ -269,7 +271,7 @@ const MainComponent = ({ setActiveSection }) => {
                 * 커리큘럼은 기수별 상황에 따라 조금씩 달라질 수 있습니다.
               </div>
 
-              <div className="mt-10 md:mb-[7.5rem] mb-10 lg:w-[65rem] md:w-full w-full h-[1px] bg-lip_gray"></div>
+              <div className="mt-10 md:mb-[7.5rem] mb-10 lg:w-[65rem] md:w-full w-full h-[1px] bg-lip_gray lg:p-0 md:px-8 px-5"></div>
               {/* 가로선 */}
             </div>
           </div>
@@ -326,7 +328,7 @@ const MainComponent = ({ setActiveSection }) => {
         </div>
         {/* 안내 */}
 
-        <div className="flex justify-center items-center mb-10">
+        <div className="flex justify-center items-center mb-10 lg:p-0 md:px-8 px-5">
           <div className="mt-10 w-[77.5rem] h-[13rem] bg-[#1C1F33] md:rounded-[2.5rem] rounded-[1.5rem] md:px-[5rem] px-5 md:py-[3.75rem] py-6 flex lg:justify-between lg:flex-row md:flex-col flex-col md:justify-center justify-center items-center">
             <div className="lg:text-[1.75rem] md:text-[1.5rem] text-[1.125rem] font-bold text-lip_white">
               <p className="md:block inline">
@@ -336,7 +338,7 @@ const MainComponent = ({ setActiveSection }) => {
                 아무것도 요구하지 않으니 필요한 정보 챙겨가세요
               </p>
             </div>
-            <div className="w-full flex justify-center items-center">
+            <div className="lg:flex-none lg:w-fit md:w-full w-full md:flex md:justify-center md:items-center">
               <button className="py-4 md:px-10 px-0 md:w-fit w-full bg-lip_purple text-lip_white border border-[#2E0082] rounded-[2rem] shadow-[inset_4px_4px_14px_0_rgba(255,255,255,0.2)] lg:mt-0 md:mt-5 mt-5">
                 지금 신청하기
               </button>
