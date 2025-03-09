@@ -31,13 +31,13 @@ const MainComponent = ({ setActiveSection }) => {
   return (
     <>
       <div className="lg:w-full md:w-full w-full">
-        <div className="w-full h-[50rem] flex justify-center items-center">
+        <div className="w-full md:h-[54.3125rem] h-[48rem] bg-[url('/img/background_img.png')] bg-cover bg-center flex justify-center items-center">
           <div
             id="home"
             ref={homeRef}
             className="md:w-[90rem] w-[36.68rem] h-full md:bg-[url('/img/coin.gif')] bg-[url('/img/coin_m.gif')] bg-center bg-cover lg:p-0 md:px-8 px-5"
           >
-            <div className="pt-[17.815rem] w-full text-center">
+            <div className="md:pt-[17.815rem] pt-[13.5rem] w-full text-center">
               <p className="text-lip_purple mb-4 md:text-[1rem] text-[0.625rem]">
                 대기업 거래소 현업 전문가와 오프라인에서 함께하는 맞춤교육
               </p>
@@ -192,6 +192,8 @@ const MainComponent = ({ setActiveSection }) => {
                       </ol>
                     </div>
                   </div>
+                  <div className="mt-5 md:hidden block w-full h-[1px] bg-lip_gray md:px-8 px-5"></div>
+                  {/* 가로선 */}
                 </li>
                 <li className="flex md:flex-row flex-col items-start mt-10">
                   <div className="bg-[url('/img/curriculum/image2.png')] bg-cover bg-center md:w-[20.8125rem] w-full h-[15.625rem] rounded-[0.75rem]"></div>
@@ -214,6 +216,8 @@ const MainComponent = ({ setActiveSection }) => {
                       </ol>
                     </div>
                   </div>
+                  <div className="mt-5 md:hidden block w-full h-[1px] bg-lip_gray md:px-8 px-5"></div>
+                  {/* 가로선 */}
                 </li>
                 <li className="flex md:flex-row flex-col items-start mt-10">
                   <div className="bg-[url('/img/curriculum/image3.png')] bg-cover bg-center md:w-[20.8125rem] w-full h-[15.625rem] rounded-[0.75rem]"></div>
@@ -239,6 +243,8 @@ const MainComponent = ({ setActiveSection }) => {
                       </ol>
                     </div>
                   </div>
+                  <div className="mt-5 md:hidden block w-full h-[1px] bg-lip_gray md:px-8 px-5"></div>
+                  {/* 가로선 */}
                 </li>
                 <li className="flex md:flex-row flex-col items-start mt-10">
                   <div className="bg-[url('/img/curriculum/image4.png')] bg-cover bg-center md:w-[20.8125rem] w-full h-[15.625rem] rounded-[0.75rem]"></div>
@@ -329,7 +335,7 @@ const MainComponent = ({ setActiveSection }) => {
         {/* 안내 */}
 
         <div className="flex justify-center items-center mb-10 lg:p-0 md:px-8 px-5">
-          <div className="mt-10 w-[77.5rem] h-[13rem] bg-[#1C1F33] md:rounded-[2.5rem] rounded-[1.5rem] md:px-[5rem] px-5 md:py-[3.75rem] py-6 flex lg:justify-between lg:flex-row md:flex-col flex-col md:justify-center justify-center items-center">
+          <div className="md:mt-10 mt-0 w-[77.5rem] h-[13rem] bg-[#1C1F33] md:rounded-[2.5rem] rounded-[1.5rem] md:px-[5rem] px-5 md:py-[3.75rem] py-6 flex lg:justify-between lg:flex-row md:flex-col flex-col md:justify-center justify-center items-center">
             <div className="lg:text-[1.75rem] md:text-[1.5rem] text-[1.125rem] font-bold text-lip_white">
               <p className="md:block inline">
                 크립토러닝에서 현업 전문가 눈높이 교육을 진행합니다
